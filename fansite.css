@@ -1,0 +1,150 @@
+
+@keyframes pulsationActu {
+    
+    100% { background-color: rgb(239, 234, 234); }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    border: 5 solid #5a2c8c; 
+   border-style: dotted;
+   border-color: snow;
+}
+
+
+h1,h2{
+    text-align: center;
+    color: #5a2c8c; 
+    
+}
+
+
+h2{
+    
+    text-shadow: rgb(196, 217, 9) 2px 5px 15px;   
+}
+p{ 
+
+    font-size: 14px;
+}
+
+img{
+    width: 150px;
+}
+
+
+
+.boite-titre {
+    background-color: #5a2c8c;
+    color: white;
+   border-style: groove;
+    padding: 5px;
+    border-radius: 5px;
+   margin: auto;
+}
+
+
+.publication {
+    align-self: flex-start;
+    margin: none;
+    font-size: 12px;
+    font-style: italic;
+    color: #5a2c8c;
+    display: inline-block;
+}
+
+
+.flex-contenue-main {
+    display: flex;
+    flex-direction: column;  
+}
+
+#flex-main-rea {
+    display: flex;
+    flex-direction:row;
+}
+#grid-galerie-tome{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    gap: 5px;
+}
+
+.flex-actu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+table,td,th {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:hover{
+    background-color:rgb(95, 141, 125);
+}
+
+caption{
+    color: aqua;
+}
+
+ button {
+    border-radius: 30px;
+    background-color: aquamarine;
+    margin: 10px 20px;
+ }
+
+ button a{
+    text-decoration: none;
+ }
+
+ button:hover {
+    animation: pulsationActu 1s infinite alternate;
+}
+
+
+
+header, footer { 
+    background-color: azure;
+    text-align: center;
+    background-image: url(ima/Frieren_manga_fr_logo.png);
+    position: relative;
+}
+
+
+
+ nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content:space-between;
+     
+}
+
+
+#flex-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#oui:hover{
+    color: rgb(5, 241, 21);
+}
+
+#non:hover{
+    color: rgb(241, 5, 5);
+}
+
+
+
+
+
+    
